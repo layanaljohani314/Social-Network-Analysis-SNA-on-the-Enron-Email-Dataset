@@ -2,20 +2,26 @@
 ## Overview
 This project performs an in-depth Social Network Analysis (SNA) on the Enron Email Dataset. By transforming over 47,000 email records into a multidimensional graph, we uncover the hidden organizational power dynamics, identify key influencers, and predict future communication links using machine learning principles.
 
+
+## Dataset Source
+The analysis is based on the Enron Email Dataset. Due to the large file size (>1GB), the raw `emails.csv` file is not included in this repository. You can download the dataset from Kaggle:
+* **[Enron Dataset Source (Kaggle)](https://www.kaggle.com/code/jamestollefson/enron-network-analysis/input)**
+
+
 ## Key Features
 Scalable Graph Construction: Developed a network with 8,936 nodes and 10,035 edges using NetworkX.
 
-1. Influence Metrics: Ranked key employees using three core centrality measures:
+# Influence Metrics: Ranked key employees using three core centrality measures:
 
-2. PageRank: To find the most "prestigious" figures.
+1. PageRank: To find the most "prestigious" figures.
 
-3. Betweenness: To identify the "gatekeepers" of information.
+2. Betweenness: To identify the "gatekeepers" of information.
 
-4. Degree: To measure raw connectivity and activity.
+3. Degree: To measure raw connectivity and activity.
 
-5. Link Prediction: Implemented the Jaccard Coefficient algorithm to predict potential future collaborations between employees who haven't interacted yet.
+# Link Prediction: Implemented the Jaccard Coefficient algorithm to predict potential future collaborations between employees who haven't interacted yet.
 
-6. Automated Visualization: High-resolution export of network maps and statistical distributions.
+# Automated Visualization: High-resolution export of network maps and statistical distributions.
 
 ## Tech Stack
 Language: Python 3.x
@@ -36,13 +42,17 @@ Language: Python 3.x
 - Predictive Success: Successfully identified pairs of employees with a >50% probability of needing future collaboration based on mutual neighbors.
 
 ## Visualizations Produced
-The analysis generates the following assets:
+### 1. The Full Communication Network
+This graph represents the entire ecosystem of Enron's email exchanges.
+![Full Network](Network%20Graph.png)
 
-clear_enron_network.png: A filtered, force-directed graph of the top 25 influencers.
+### 2. Top 10 Influencers (Degree Centrality)
+A focused look at the most connected individuals within the organization.
+![Top 10 Influencers](Top%2010%20Degree%20Centrality.png)
 
-top_influencers_bar_chart.png: A ranked comparison of employee connectivity.
-
-degree_distribution.png: An analysis of the network's density and connectivity spread.
+### 3. Departmental Hubs
+Visualizing how different sectors of the company interact.
+![Departmental Hubs](Network%20by%20Department.png)
 
 
 ## Conclusion
