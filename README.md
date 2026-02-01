@@ -11,7 +11,7 @@ The analysis is based on the Enron Email Dataset. Due to the large file size (>1
 ## Key Features
 Scalable Graph Construction: Developed a network with 8,936 nodes and 10,035 edges using NetworkX.
 
-# Influence Metrics: Ranked key employees using three core centrality measures:
+### Influence Metrics: Ranked key employees using three core centrality measures:
 
 1. PageRank: To find the most "prestigious" figures.
 
@@ -19,9 +19,9 @@ Scalable Graph Construction: Developed a network with 8,936 nodes and 10,035 edg
 
 3. Degree: To measure raw connectivity and activity.
 
-# Link Prediction: Implemented the Jaccard Coefficient algorithm to predict potential future collaborations between employees who haven't interacted yet.
+### Link Prediction: Implemented the Jaccard Coefficient algorithm to predict potential future collaborations between employees who haven't interacted yet.
 
-# Automated Visualization: High-resolution export of network maps and statistical distributions.
+### Automated Visualization: High-resolution export of network maps and statistical distributions.
 
 ## Tech Stack
 Language: Python 3.x
