@@ -11,7 +11,7 @@ The analysis is based on the Enron Email Dataset. Due to the large file size (>1
 ## Key Features
 Scalable Graph Construction: Developed a network with 8,936 nodes and 10,035 edges using NetworkX.
 
-### Influence Metrics: Ranked key employees using three core centrality measures:
+### 1. Influence Metrics: Ranked key employees using three core centrality measures:
 
 1. PageRank: To find the most "prestigious" figures.
 
@@ -19,9 +19,9 @@ Scalable Graph Construction: Developed a network with 8,936 nodes and 10,035 edg
 
 3. Degree: To measure raw connectivity and activity.
 
-### Link Prediction: Implemented the Jaccard Coefficient algorithm to predict potential future collaborations between employees who haven't interacted yet.
+### 2. Link Prediction: Implemented the Jaccard Coefficient algorithm to predict potential future collaborations between employees who haven't interacted yet.
 
-### Automated Visualization: High-resolution export of network maps and statistical distributions.
+### 3. Automated Visualization: High-resolution export of network maps and statistical distributions.
 
 ## Tech Stack
 Language: Python 3.x
@@ -42,18 +42,16 @@ Language: Python 3.x
 - Predictive Success: Successfully identified pairs of employees with a >50% probability of needing future collaboration based on mutual neighbors.
 
 ## Visualizations Produced
-### 1. The Full Communication Network
+### 1. The Communication Network
 This graph represents the entire ecosystem of Enron's email exchanges.
 ![Full Network](Network%20Graph.png)
 
-### 2. Top 10 Influencers (Degree Centrality)
+### 2. Top 10 Influencers
 A focused look at the most connected individuals within the organization.
-![Top 10 Influencers](Top%2010%20Degree%20Centrality.png)
+![Top 10](Top%2010%20Degree%20Centrality.png)
 
-### 3. Departmental Hubs
-Visualizing how different sectors of the company interact.
-![Departmental Hubs](Network%20by%20Department.png)
+---
 
-
-## Conclusion
-This project demonstrates that organizational hierarchy is often different from the "communication hierarchy." By analyzing the Enron corpus, we successfully mapped the real flow of influence, proving that Network Science is a powerful tool for corporate auditing, fraud detection, and team optimization.
+## Key Findings
+* **Predictive Success:** Successfully identified pairs of employees with a >50% probability of needing future collaboration based on mutual neighbors.
+💡 ملاحظة مهمة جداً عشان تظهر الصور:
