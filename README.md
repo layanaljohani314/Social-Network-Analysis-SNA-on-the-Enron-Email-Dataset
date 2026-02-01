@@ -44,14 +44,13 @@ Language: Python 3.x
 ## Visualizations Produced
 ### 1. The Communication Network
 This graph represents the entire ecosystem of Enron's email exchanges.
-![Full Network](Network%20Graph.png)
+![Full Network](clear_enron_network.png)
 
 ### 2. Top 10 Influencers
 A focused look at the most connected individuals within the organization.
-![Top 10](Top%2010%20Degree%20Centrality.png)
+![Top 10](top_influencers_bar_chart.png)
 
 ---
 
 ## Key Findings
 * **Predictive Success:** Successfully identified pairs of employees with a >50% probability of needing future collaboration based on mutual neighbors.
-💡 ملاحظة مهمة جداً عشان تظهر الصور:
