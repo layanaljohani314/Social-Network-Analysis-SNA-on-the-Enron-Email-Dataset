@@ -43,7 +43,7 @@ Language: Python 3.x
 
 ## Visualizations Produced
 ### 1. The Communication Network
-This graph represents the entire ecosystem of Enron's email exchanges.
+This graph represents Enron's email exchanges.
 ![Full Network](clear_enron_network.png)
 
 ### 2. Top 10 Influencers
